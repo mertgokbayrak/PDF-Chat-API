@@ -72,9 +72,6 @@ File: Multipart form data containing the PDF file\
 * 413 Payload Too Large: PDF file's size exceeds 10 MB.
 * 500 Internal Server Error: Error processing the request.
 
-**Example:**\
-`curl -X POST "http://localhost:8000/v1/pdf" -F "file=@/path/to/your/file.pdf"`
-
 ### 2. Chat with PDF
 
 **Endpoint:** /v1/chat/{pdf_id} \
@@ -89,9 +86,6 @@ Response:
 * 404 Not Found: PDF ID not found.
 * 500 Internal Server Error: Error processing the request.
 
-Example:
-
-`curl -X POST "http://localhost:8000/v1/chat/{pdf_id}" -H "Content-Type: application/json" -d '{"message": "What is the content about?"}'`
 
 ## Testing Procedures
 
