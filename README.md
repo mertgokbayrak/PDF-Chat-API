@@ -52,7 +52,7 @@ The project uses SQLite for the database. The database will automatically be cre
 To start the application, use the following command:
 
 
-`uvicorn app:app --reload` \
+`uvicorn app:app --reload` 
 
 This will start the FastAPI server locally on http://localhost:8000.
 
