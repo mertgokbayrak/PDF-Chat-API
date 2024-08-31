@@ -38,7 +38,7 @@ Ensure you have the following installed on your machine:
 
 
 4. Environment Variables: \
-Create a .env file in the root of your project and add the following variables:
+Create a .env file in the root of your project and add the following variables:\
 `GEMINI_API_KEY=your-gemini-api-key`
 
 
