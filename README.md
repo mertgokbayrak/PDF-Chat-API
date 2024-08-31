@@ -77,8 +77,8 @@ File: Multipart form data containing the PDF file\
 **Method:** POST \
 **Description:** Endpoint for interacting with a specific PDF. \
 **Request:** 
-* Path Parameter: _pdf_id_  (UUID of the uploaded PDF)
-* Body: { "message": "Your message" }
+* _pdf_id_  (UUID of the uploaded PDF)
+* { "message": "Your message" }
 
 Response:
 * 200 OK: Returns the response from the AI.
@@ -103,6 +103,5 @@ To check the test coverage, use:
 ### Test Configuration
 
 The tests use an in-memory SQLite database for isolation and speed.
-The tests are configured to automatically create and tear down the database.
 
 
